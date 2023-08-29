@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" media="screen" href="/static/style.css" />
+  <link rel="icon" href="/static/favicon.ico"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@800&family=Poppins&display=swap" rel="stylesheet">
+  <!-- Primary Meta Tags -->
+  <title>{{ site.title }} — {{ site.description }}</title>
+  <meta name="title" content="{{ site.title }}">
+  <meta name="description" content="{{ site.description }}">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="/static/thumb.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ site.url }}">
+  <meta property="twitter:title" content="{{ site.title }}">
+  <meta property="twitter:description" content="{{ site.description }}">
+  <meta property="twitter:image" content="/static/thumb.png">
+</head>
+<body>
+<main id="app" role="main">
+{{ content }}
+</main>
+<a href="#"><img src="/static/teler.png" class="teler"></a>
+<script src="/static/script.js" defer=""></script>
+</body>
+</html>
